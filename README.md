@@ -1,6 +1,8 @@
 # liveasy_task
 
 A new Flutter project.
+![merge_from_ofoct](https://user-images.githubusercontent.com/63182838/147890944-f48385dc-b365-4ffa-b12c-938059a679af.png)
+
 
 ## Getting Started
 
