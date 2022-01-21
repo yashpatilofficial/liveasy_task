@@ -16,7 +16,7 @@ class _languageSelectionPageState extends State<languageSelectionPage> {
   final _languages = ['English', 'Hindi', 'Marathi', 'Gujrati'];
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold(//safearea can be used to avoid any glitches ahead
       body: Center(
         child: Column(
           children: [
@@ -50,7 +50,7 @@ class _languageSelectionPageState extends State<languageSelectionPage> {
               ),
             ),
             Container(
-              padding: EdgeInsets.only(top: 24),
+              padding: EdgeInsets.only(top: 24),//container can be replaced by a sizedBox
             ),
             Container(
               width: 216,
@@ -103,7 +103,7 @@ class _languageSelectionPageState extends State<languageSelectionPage> {
             Expanded(
                 child: Align(
               alignment: FractionalOffset.bottomCenter,
-              child: Image.asset("assets/images/group0.png"),
+              child: Image.asset("assets/images/group0.png"),//image name can be better
             ))
           ],
         ),
